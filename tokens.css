@@ -1,0 +1,47 @@
+/* Underwood Fencing & Gates — design tokens. Premium architectural monochrome.
+   Grounded: their REAL work — charcoal Colorbond + crisp white aluminium + green gardens
+   (no logo/site → no brand colours to match). Cool, precise, dead-straight.
+   Distinct from prior builds — esp. the EARLIER Affordable Fencing (earthy Archivo): this is
+   cool graphite + aluminium + a single deep-eucalypt accent, Space Grotesk architectural type. */
+:root{
+  /* palette — architectural monochrome */
+  --paper:     #FAFBFC;   /* crisp cool white */
+  --paper-2:   #F1F3F5;   /* faint aluminium-tint surface */
+  --aluminium: #C9CDD2;   /* cool grey — lines/rules */
+  --alu-soft:  #E5E8EB;
+  --graphite:  #23262A;   /* Colorbond charcoal — dark bands */
+  --graph-2:   #2C3035;
+  --ink:       #15171A;   /* near-black architectural ink (text) */
+  --ink-soft:  #5C636B;
+  --eucalypt:  #244A3A;   /* deep eucalypt green — single restrained accent */
+  --euc-bright:#2E6B4F;   /* slightly brighter green for hovers/links */
+  --line:      rgba(21,23,26,.14);
+  --line-soft: rgba(21,23,26,.07);
+  --line-light:rgba(250,251,252,.16);  /* hairlines on dark */
+
+  /* type */
+  --f-display: "Space Grotesk", "Helvetica Neue", Arial, sans-serif;  /* architectural, precise */
+  --f-body:    "Manrope", "Helvetica Neue", Arial, sans-serif;        /* clean premium */
+  --t-hero:  clamp(2.7rem, 6.4vw, 5.6rem);
+  --t-h2:    clamp(2rem, 4.2vw, 3.4rem);
+  --t-h3:    clamp(1.2rem, 1.8vw, 1.55rem);
+  --t-mega:  clamp(3rem, 9vw, 7.5rem);
+  --t-body:  1.05rem;
+  --t-kicker:.72rem;
+
+  /* spacing */
+  --s-2:.5rem; --s-3:.85rem; --s-4:1.4rem; --s-5:2.2rem; --s-6:3.4rem; --s-7:clamp(4rem,9vw,7.5rem);
+  --maxw:1200px;
+
+  /* radii — sharp, architectural (almost square; this is precision fencing) */
+  --r-sm:2px; --r-md:4px; --r-lg:6px; --r-pill:999px;
+
+  /* shadows — cool, low */
+  --shadow-soft: 0 20px 56px -28px rgba(21,23,26,.42);
+  --shadow-card: 0 12px 30px -18px rgba(21,23,26,.30);
+
+  /* motion */
+  --dur:.5s;
+  --ease: cubic-bezier(.22,1,.36,1);
+  --ease-out: cubic-bezier(.16,1,.3,1);
+}
